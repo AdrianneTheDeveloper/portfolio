@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap');
+
+body {
+    background-color: #222733;
+    color: #DBE8D4
+}
+
+
+.photo-header {
+    display: flex;
+    flex-direction: column;
+}
+.photo-header img {
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 5px black;
+    
+}
+.logo {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 2em;
+    margin: 15px 0px;
+    
+}
+.nav-bar {
+    font-family: 'Oswald', 'sans-serif';
+
+}
+
+.nav-bar ul li {
+    color: #DBE8D4;
+}
+.nav-bar ul li a:visited, a:link {
+    color: #DBE8D4;
+    text-decoration: none;
+}
+.nav-bar ul li a:active, a:hover {
+   border-bottom: 2px solid #DBE8D4;
+   color: #627194;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.facets {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    list-style-type: none;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.intro-pg {
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.about {
+    margin-top: 100px;
+}
+.about h2 {
+    font-family: "Montserrat", "sans-serif";
+    letter-spacing: 3px;
+    text-align: center;
+    
+    box-shadow: 0 5px 5px -3px black;
+}
+.about-me {
+    font-family: "Oswald", "sans-serif";
+}
