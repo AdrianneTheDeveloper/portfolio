@@ -60,10 +60,10 @@ body {
     font-family: 'Oswald', 'sans-serif';
 }
 
-.about {
+#about {
     margin-top: 100px;
 }
-.about h2 {
+#about h2 {
     font-family: "Montserrat", "sans-serif";
     letter-spacing: 3px;
     text-align: center;
@@ -72,4 +72,40 @@ body {
 }
 .about-me {
     font-family: "Oswald", "sans-serif";
+}
+
+form {
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.email-form label {
+    display: block;
+    font-family: monospace;
+    margin: 10px 0px;
+}
+
+.email-form button {
+    margin-top: 10px;
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+    font-family: monospace;
+    align-self: flex-start;
+}
+.email-form input[type="text"] {
+    align-self: flex-start;
+}
+
+.email-form textarea {
+    width: 100%;
+    height: 70px;
+}
+
+button  {
+    background: lightblue;
+
+
 }
