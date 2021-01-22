@@ -8,28 +8,31 @@
 </head>
 <body>
     <header id="home">
-        <nav class="nav-bar">
-            <ul class="menu">
-                <li><a href='#home'>Home</a></li>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#portfolio'>Portfolio</a></li>
-                <li><a href='#contact'>Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav">
+            <nav class="nav-bar">
+                <ul class="menu">
+                    <li><a href='#home'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
+                    <li><a href='#contact'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
         <div class="photo-header">
          <h1 class="logo">ADRIANNE MEREDITH</h1>
-         <img src="images/Image-1.png" class="bit-photo" alt="Bitmoji photo" width="150px" />
        </div>
     </header>
 
     <main>
-        <section>
+        <section class="intro">
+            <img src="images/Image-1.png" class="bit-photo" alt="Bitmoji photo" width="150px" />
             <div class="intro-pg">
-                <ul class="facets">
+                <h2><ul class="facets">
                     <li>Accessibility</li>
                     <li>Creativity</li>
                     <li>Passion</li>
-                </ul>
+                </ul></h2>
                 <p>
                     Hi! I'm Adrianne. I am a Houston-based full-stack software engineer. 
                     I build web applications. 
@@ -92,9 +95,12 @@
 
         <section id="contact">
             <h2>Reach out to me</h2>
-            <a href="mailto:meredith.adri@gmail.com"><p>Email Me</p></a>
+            <div class="contact-me">
+                <a href="mailto:meredith.adri@gmail.com"><p>Email Me</p></a>
             <a href="https://github.com/AdrianneTheDeveloper"><p>Github</p></a>
             <a href="https://www.linkedin.com/in/adriannemeredith/"><p>Linked In</p></a>
+            </div>
+            
             <div>
               <form class="email-form" action="https://formspree.io/f/mjvplrqp" method="POST">
                 <label for="user-name">Name</label>

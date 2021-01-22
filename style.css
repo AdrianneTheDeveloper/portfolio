@@ -1,173 +1,343 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&display=swap");
 
 body {
-    background-color: #222733;
-    color: #DBE8D4
+  background-color: #222733;
+  color: #dbe8d4;
 }
 
-
-.photo-header {
-    display: flex;
-    flex-direction: column;
-}
-.photo-header img {
-    align-self: center;
-    border-radius: 50%;
-    box-shadow: 0px 5px 5px 5px black;
-    
-}
 .logo {
-    font-family: 'Montserrat', 'sans-serif';
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 5px;
-    line-height: 2em;
-    margin: 15px 0px;
-    
+  font-family: "Montserrat", "sans-serif";
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 2em;
+  margin: 15px 0px;
 }
 .nav-bar {
-    font-family: 'Oswald', 'sans-serif';
-
+  font-family: "Oswald", "sans-serif";
 }
 
 .nav-bar ul li {
-    color: #DBE8D4;
+  color: #dbe8d4;
 }
-.nav-bar ul li a:visited, a:link {
-    color: #DBE8D4;
-    text-decoration: none;
+
+.nav-bar ul li {
+  transition: border-bottom 0.25s color 0.25s box-shadow 0.25s transform 0.25s;
 }
-.nav-bar ul li a:active, a:hover {
-   border-bottom: 2px solid #DBE8D4;
-   color: #627194;
+.nav-bar ul li a:visited,
+a:link {
+  color: #dbe8d4;
+  text-decoration: none;
+}
+.nav-bar ul li a:active,
+a:hover {
+  border-bottom: 2px solid #dbe8d4;
+  color: #627194;
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translateY(-0.25em);
 }
 .menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
 
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.intro img {
+  align-self: center;
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px 5px black;
+}
+
+.intro h2 {
+  font-size: 16px;
+}
 
 .facets {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-    list-style-type: none;
-    font-family: 'Montserrat', 'sans-serif';
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+  font-family: "Montserrat", "sans-serif";
 }
 
 .intro-pg {
-    font-family: 'Oswald', 'sans-serif';
+  font-family: "Oswald", "sans-serif";
 }
-
-
 
 #about {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 #about h2 {
-    font-family: "Montserrat", "sans-serif";
-    letter-spacing: 3px;
-    text-align: center;
-    box-shadow: 0 5px 5px -3px black;
+  font-family: "Montserrat", "sans-serif";
+  letter-spacing: 3px;
+  text-align: center;
+  box-shadow: 0 5px 5px -3px black;
 }
 .about-me {
-    font-family: "Oswald", "sans-serif";
+  font-family: "Oswald", "sans-serif";
 }
-
-
 
 #portfolio {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 #portfolio h2 {
-    font-family: "Montserrat","sans-serif";
-    letter-spacing: 3px;
-    text-align: center;
-    box-shadow: 0 5px 5px -3px black;
+  font-family: "Montserrat", "sans-serif";
+  letter-spacing: 3px;
+  text-align: center;
+  box-shadow: 0 5px 5px -3px black;
 }
 
 .my-portfolio p {
-    font-family: "Oswald", "sans-serif";
+  font-family: "Oswald", "sans-serif";
 }
-.my-portfolio a:visited, a:link {
-    color: #DBE8D4;
-    text-decoration: none;
+.my-portfolio a {
+    transition: border-bottom 0.25s color 0.25s box-shadow 0.25s transform 0.25s;
 }
-.my-portfolio a:hover, a:active {
-    border-bottom: 2px solid #DBE8D4;
-    color: #627194;
+.my-portfolio a:visited,
+a:link {
+  color: #dbe8d4;
+  text-decoration: none;
+}
+.my-portfolio a:hover,
+a:active {
+  border-bottom: 2px solid #dbe8d4;
+  color: #627194;
+  box-shadow: 0 0.5em 0.5em -0.4em;
 }
 .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .projects h3 {
-    font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat", "sans-serif";
 }
 .my-portfolio img {
-    border-radius: 10%;
+  border-radius: 10%;
 }
-
 
 #contact {
-    font-family: "Montserrat", "sans-serif";
-    text-align: center;
-    margin-top: 100px;
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  margin-top: 100px;
 }
 #contact h2 {
-    letter-spacing: 3px;
-    text-align: center;
-    box-shadow: 0 5px 5px -3px black;
+  letter-spacing: 3px;
+  text-align: center;
+  box-shadow: 0 5px 5px -3px black;
 }
-#contact a:visited, a:link {
-    color: #DBE8D4;
-    text-decoration: none;
-}
-#contact a:hover, a:active {
-    border-bottom: 2px solid #DBE8D4;
-    color: #627194;
-}
-form {
-    /* margin-left: 50px; */
+.contact-me {
     display: flex;
     flex-direction: column;
-    padding: 0px 10px;
+    padding: 0px 100px;
+}
+.contact-me a:visited,
+a:link {
+  color: #dbe8d4;
+  text-decoration: none;
+}
+.contact-me a:hover,
+a:active {
+border-bottom: 2px solid #dbe8d4;
+}
+form {
+  /* margin-left: 50px; */
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
 }
 .email-form label {
-    display: block;
-    font-family: "Oswald", "sans-serif";
-    align-self: flex-start;
-    
+  display: block;
+  font-family: "Oswald", "sans-serif";
+  align-self: flex-start;
 }
 
 .email-form button {
-    margin-top: 10px;
-    display: block;
-    padding: 10px;
-    border-radius: 15px;
-    border: 1px solid;
-    font-family: "Montserrat", "sans-serif";
-    align-self: flex-start;
+  margin-top: 10px;
+  display: block;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid;
+  font-family: "Montserrat", "sans-serif";
+  align-self: flex-start;
+  color: black;
+  font-weight: 900;
 }
 .email-form input[type="text"] {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .email-form textarea {
-    width: 100%;
-    height: 70px;
+  width: 100%;
+  height: 70px;
 }
 
-button  {
-    background: #DBE8D4;
-
+button {
+  background: #dbe8d4;
 }
-
-
 
 footer {
-    font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat", "sans-serif";
+}
+
+@media all and (min-width: 500px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-bar {
+    font-size: 1.5em;
+    display: flex;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-bar ul li {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .logo {
+    font-size: 28px;
+  }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro img {
+    width: 250px;
+  }
+
+  .intro-pg {
+    display: flex;
+    flex-direction: column;
+  }
+  .facets {
+    font-size: 26px;
+    letter-spacing: 3px;
+  }
+  .intro-pg p {
+    font-size: 22px;
+  }
+
+  #about h2 {
+    font-size: 26px;
+  }
+  .about-me {
+    font-size: 22px;
+    text-align: left;
+    padding-right: 100px;
+  }
+
+  #portfolio h2 {
+    font-size: 26px;
+  }
+  .my-portfolio {
+    font-size: 22px;
+  }
+  .my-portfolio img {
+    width: 300px;
+  }
+
+  #contact {
+    font-size: 24px;
+  }
+  #contact form input[type="text"] {
+    height: 30px;
+    width: 80%;
+    font-size: 1em;
+  }
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-bar {
+    font-size: 2em;
+    display: flex;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-bar ul li {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    font-size: 26px;
+  }
+  .logo {
+    font-size: 30px;
+  }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro img {
+    width: 250px;
+  }
+
+  .intro-pg {
+    display: flex;
+    flex-direction: column;
+  }
+  .facets {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .intro-pg p {
+    font-size: 26px;
+  }
+
+  #about h2 {
+    font-size: 30px;
+  }
+  .about-me {
+    font-size: 26px;
+  }
+
+  #portfolio h2 {
+    font-size: 30px;
+  }
+  .my-portfolio {
+    font-size: 26px;
+  }
+  .my-portfolio img {
+    width: 300px;
+  }
+  .projects {
+      align-items: flex-start;
+  }
+
+  #contact {
+    font-size: 24px;
+  }
+  #contact form input[type="text"] {
+    height: 30px;
+    width: 80%;
+    font-size: 1em;
+  }
+  .email-form button {
+    transition: border 0.25s, box-shadow 0.25s;
+  }
+  .email-form button:hover {
+    font-size: 24px;
+    border: 2px solid;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+  }
 }
