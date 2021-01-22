@@ -48,6 +48,7 @@ body {
     padding: 0;
 }
 
+
 .facets {
     display: flex;
     justify-content: space-between;
@@ -60,6 +61,8 @@ body {
     font-family: 'Oswald', 'sans-serif';
 }
 
+
+
 #about {
     margin-top: 100px;
 }
@@ -67,13 +70,66 @@ body {
     font-family: "Montserrat", "sans-serif";
     letter-spacing: 3px;
     text-align: center;
-    
     box-shadow: 0 5px 5px -3px black;
 }
 .about-me {
     font-family: "Oswald", "sans-serif";
 }
 
+
+
+#portfolio {
+    margin-top: 100px;
+}
+#portfolio h2 {
+    font-family: "Montserrat","sans-serif";
+    letter-spacing: 3px;
+    text-align: center;
+    box-shadow: 0 5px 5px -3px black;
+}
+
+.my-portfolio p {
+    font-family: "Oswald", "sans-serif";
+}
+.my-portfolio a:visited, a:link {
+    color: #DBE8D4;
+    text-decoration: none;
+}
+.my-portfolio a:hover, a:active {
+    border-bottom: 2px solid #DBE8D4;
+    color: #627194;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects h3 {
+    font-family: "Montserrat", "sans-serif";
+}
+.my-portfolio img {
+    border-radius: 10%;
+}
+
+
+#contact {
+    font-family: "Montserrat", "sans-serif";
+    text-align: center;
+    margin-top: 100px;
+}
+#contact h2 {
+    letter-spacing: 3px;
+    text-align: center;
+    box-shadow: 0 5px 5px -3px black;
+}
+#contact a:visited, a:link {
+    color: #DBE8D4;
+    text-decoration: none;
+}
+#contact a:hover, a:active {
+    border-bottom: 2px solid #DBE8D4;
+    color: #627194;
+}
 form {
     /* margin-left: 50px; */
     display: flex;
@@ -82,8 +138,9 @@ form {
 }
 .email-form label {
     display: block;
-    font-family: monospace;
-    margin: 10px 0px;
+    font-family: "Oswald", "sans-serif";
+    align-self: flex-start;
+    
 }
 
 .email-form button {
@@ -92,7 +149,7 @@ form {
     padding: 10px;
     border-radius: 15px;
     border: 1px solid;
-    font-family: monospace;
+    font-family: "Montserrat", "sans-serif";
     align-self: flex-start;
 }
 .email-form input[type="text"] {
@@ -105,7 +162,12 @@ form {
 }
 
 button  {
-    background: lightblue;
+    background: #DBE8D4;
+
+}
 
 
+
+footer {
+    font-family: "Montserrat", "sans-serif";
 }
