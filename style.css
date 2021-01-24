@@ -5,6 +5,9 @@ body {
   color: #dbe8d4;
 }
 
+body a {
+  font-family: "Oswald", "sans-serif";
+}
 .logo {
   font-family: "Montserrat", "sans-serif";
   font-size: 14px;
