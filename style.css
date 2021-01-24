@@ -64,12 +64,17 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding-left: 0;
+  margin-top: 100px;
   list-style-type: none;
   font-family: "Montserrat", "sans-serif";
 }
 
 .intro-pg {
   font-family: "Oswald", "sans-serif";
+}
+.intro-pg h2 {
+  text-align: center;
+  font-size: 26px;
 }
 
 #about {
@@ -225,6 +230,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .intro-pg {
+    font-size: 30px;
+  }
   .facets {
     font-size: 26px;
     letter-spacing: 3px;
@@ -294,6 +302,9 @@ footer {
 
   .intro img {
     width: 250px;
+  }
+  .intro-pg {
+    font-size: 32px;
   }
 
   .intro-pg {
